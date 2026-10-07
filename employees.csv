@@ -1,0 +1,7 @@
+employee_id,name,role,skills,capacity_hours,assigned_hours
+E01,Priya Nair,Backend Developer,python;sql;django;api,40,34
+E02,Rahul Verma,Full Stack Developer,react;nodejs;javascript;sql,40,22
+E03,Meera Shah,Frontend Developer,react;javascript;css;design,40,38
+E04,Karan Singh,Backend Developer,python;api;docker;aws,40,18
+E05,Sara Khan,QA Engineer,testing;selenium;python,40,15
+E06,Dev Patel,Data Analyst,sql;python;tableau,40,30

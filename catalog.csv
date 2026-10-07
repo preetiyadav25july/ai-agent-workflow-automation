@@ -1,0 +1,11 @@
+sku,product_name,brand,category,color,size,material
+SKU-001,Trail Backpack 30L,TrailPro,Bags,Green,30L,Nylon
+sku-001,Trail Backpack 30 L,TrailPro,Bags,Green,30L,Nylon
+SKU-020,Insulated Water Bottle 750ml,AquaGo,Drinkware,Blue,750ml,Steel
+SKU-021,Insulated Water Bottle 750 ml,AquaGo,Drinkware,Blue,750ml,Steel
+SKU-030,Yoga Mat,ZenFit,Fitness,Purple,6mm,TPE
+SKU-031,Yoga Mat,ZenFit,Fitness,Black,6mm,TPE
+SKU-040,Merino Hiking Socks,WoolWay,Apparel,Grey,M,Merino
+SKU-050,Camping Headlamp,LumiX,Gear,Black,,Plastic
+SKU-051,Portable Stove,FlameCo,Gear,Silver,,Steel
+SKU-052,Rain Jacket,StormGuard,Apparel,Yellow,L,Polyester

@@ -1,0 +1,12 @@
+[
+  {"id": "wf001", "request": "Which products need restocking?", "params": {}},
+  {"id": "wf002", "request": "Find products where vendor price differs by more than 10%.", "params": {}},
+  {"id": "wf003", "request": "Process this vendor spreadsheet and show invalid rows.", "params": {"file": "data/vendor_file_messy.csv"}},
+  {"id": "wf004", "request": "Generate SEO content for this product.", "params": {"product_name": "Trail Backpack 30L", "category": "Bags", "attributes": "30 litre capacity; padded straps", "target_audience": "weekend hikers"}},
+  {"id": "wf005", "request": "Where is order ORD-1001?", "params": {}},
+  {"id": "wf006", "request": "Find likely duplicate products in the catalog.", "params": {}},
+  {"id": "wf007", "request": "Create a campaign brief for the new collection.", "params": {"campaign_goal": "Increase sales of the Autumn 2026 collection", "dates": "2026-11-01 to 2026-11-30", "target_audience": "outdoor enthusiasts aged 25-40", "promotion": "10% off for newsletter subscribers", "collection": "Autumn 2026"}},
+  {"id": "wf008", "request": "Classify these keywords and map them to pages.", "params": {"keywords_file": "data/keywords.csv"}},
+  {"id": "wf009", "request": "Assign this urgent task to the best available developer.", "params": {"task": "Fix the checkout bug in the React frontend that calls the Node API", "deadline": "2026-10-09", "estimated_hours": "6"}},
+  {"id": "wf010", "request": "Which workflows are failing most often?", "params": {}}
+]

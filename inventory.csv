@@ -1,0 +1,14 @@
+sku,product_name,category,current_stock,minimum_stock,max_stock
+SKU-001,Trail Backpack 30L,Bags,4,10,40
+SKU-002,Insulated Water Bottle,Drinkware,55,20,100
+SKU-003,Merino Hiking Socks,Apparel,8,25,120
+SKU-004,Camping Headlamp,Gear,12,12,50
+SKU-005,Compact Sleeping Bag,Gear,2,8,30
+SKU-006,Stainless Steel Mug,Drinkware,40,15,80
+SKU-007,Rain Jacket,Apparel,3,10,35
+SKU-008,Trekking Poles,Gear,18,10,40
+SKU-009,Portable Stove,Gear,0,5,20
+SKU-010,Yoga Mat,Fitness,33,10,60
+SKU-011,Resistance Bands Set,Fitness,9,20,80
+SKU-012,Cotton Tote Bag,Bags,70,20,150
+SKU-013,First Aid Kit,Gear,n/a,10,40

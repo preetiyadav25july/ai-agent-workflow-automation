@@ -1,0 +1,4 @@
+order_id,carrier,tracking_number,shipment_status,eta,last_update
+ORD-1001,BlueDart,BD778812,in_transit,2026-10-08,"Departed Delhi hub, 2026-10-05"
+ORD-1003,Delhivery,DL990021,delivered,2026-09-24,"Delivered, signed by customer"
+ORD-5000,BlueDart,BD551290,out_for_delivery,2026-10-06,Out for delivery in Ludhiana

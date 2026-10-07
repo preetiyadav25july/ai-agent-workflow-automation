@@ -1,0 +1,16 @@
+[
+  {"id": "edge_unknown_request", "request": "What's the weather like in Paris?", "params": {}, "expect": "no workflow selected"},
+  {"id": "edge_order_not_found", "request": "Where is order ORD-9999?", "params": {}, "expect": "needs_input (ask another identifier)"},
+  {"id": "edge_order_by_email", "request": "Status of orders for anita@example.com", "params": {}, "expect": "2 orders found"},
+  {"id": "edge_order_retry", "request": "Where is order ORD-5000?", "params": {}, "expect": "transient API timeout, auto-retry, success"},
+  {"id": "edge_order_no_id", "request": "Where is my order?", "params": {}, "expect": "needs_input"},
+  {"id": "edge_wf003_no_file", "request": "Process this vendor spreadsheet and show invalid rows.", "params": {}, "expect": "needs_input (file)"},
+  {"id": "edge_wf003_bad_columns", "request": "Process this vendor file", "params": {"file": "data/vendor_file_bad_columns.csv"}, "expect": "failed (required columns missing)"},
+  {"id": "edge_wf004_no_product", "request": "Generate SEO content for this product.", "params": {}, "expect": "needs_input (product name)"},
+  {"id": "edge_wf004_missing_attrs", "request": "Generate SEO content for this product.", "params": {"product_name": "Camping Headlamp"}, "expect": "success, missing attributes marked not invented"},
+  {"id": "edge_wf007_missing_goal_dates", "request": "Create a campaign brief for the new collection.", "params": {}, "expect": "needs_input (goal and dates)"},
+  {"id": "edge_wf007_bad_dates", "request": "Create a campaign brief", "params": {"campaign_goal": "Boost sales", "dates": "2026-12-10 to 2026-12-01"}, "expect": "needs_input (end before start)"},
+  {"id": "edge_wf009_no_task", "request": "Assign this urgent task to the best available developer.", "params": {}, "expect": "needs_input (task)"},
+  {"id": "edge_wf009_escalate", "request": "Assign this task to a developer", "params": {"task": "Build a Rust microservice", "required_skills": "rust;kubernetes"}, "expect": "escalated (no suitable employee)"},
+  {"id": "edge_wf002_threshold", "request": "Validate prices, flag differences above 24%", "params": {}, "expect": "only 2 exceptions (26.7% and 25.0%)"}
+]

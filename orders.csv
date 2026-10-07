@@ -1,0 +1,5 @@
+order_id,customer_email,customer_name,status,order_date,items,total
+ORD-1001,anita@example.com,Anita Rao,shipped,2026-10-01,Trail Backpack 30L x1; Merino Hiking Socks x2,126.99
+ORD-1002,ben@example.com,Ben Cole,processing,2026-10-04,Yoga Mat x1,28.0
+ORD-1003,anita@example.com,Anita Rao,delivered,2026-09-20,Insulated Water Bottle x2,49.98
+ORD-5000,cara@example.com,Cara Ng,shipped,2026-10-03,Rain Jacket x1,99.0

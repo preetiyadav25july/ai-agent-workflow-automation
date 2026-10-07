@@ -1,0 +1,19 @@
+{
+  "price_diff_threshold_pct": 10,
+  "reorder_cover_multiplier": 2,
+  "duplicate_possible_threshold": 0.8,
+  "failure_rate_threshold_pct": 10,
+  "avg_exec_time_threshold_sec": 5.0,
+  "slow_step_threshold_sec": 1.0,
+  "router_min_confidence": 0.35,
+  "step_match_cutoff": 0.82,
+  "step_max_retries": 2,
+  "min_skill_match_for_assignment": 0.5,
+  "default_task_hours": 8,
+  "high_priority_min_searches": 1000,
+  "paths": {
+    "workflows_xlsx": "data/workflows.xlsx",
+    "execution_logs": "data/execution_logs.csv",
+    "outputs_dir": "outputs"
+  }
+}
